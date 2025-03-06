@@ -6,4 +6,15 @@ public class Trabajadores
     {
         this.patata=patata;
     }
+
+    public void precioPatata(){
+         patata=patata*2;
+    }
+
+    @Override
+    public String toString() {
+        return "Trabajadores{" +
+                "patata=" + patata +
+                '}';
+    }
 }
